@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                             },
                             {
                                 property: `og:image`,
-                                content: `https://source.unsplash.com/collection/11355299`,
+                                content: `https://media.giphy.com/media/MONvE9pT7jsEE/giphy.gif`,
                             },
                             {
                                 name: `twitter:card`,
@@ -44,7 +44,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                             },
                             {
                                 name: `twitter:image`,
-                                content: `https://source.unsplash.com/collection/11355299`,
+                                content: `https://media.giphy.com/media/MONvE9pT7jsEE/giphy.gif`,
                             },
                             {
                                 name: `twitter:creator`,

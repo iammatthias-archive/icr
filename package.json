@@ -1,7 +1,7 @@
 {
-    "name": "icr",
+    "name": "threeturltes",
     "private": true,
-    "description": "is canada real?",
+    "description": "turtles. at least 3 of the aquatic things.",
     "version": "0.1.0",
     "author": "Matthias <me@iammatthias.com>",
     "dependencies": {

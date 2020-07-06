@@ -13,30 +13,24 @@ export const Container = styled.div`
 `
 
 export const Overlay = styled.div`
-.top {
-        top: 0;
-    }
-   & .bottom {
-        bottom: 0;
-    }
-    section {
-        
-        margin: 16px;
         position: absolute;
+        top: 0;
         left: 0;
+        section {
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
         div {
-            padding: 16px 24px;
-            background: black;
+            font-weight: bold;
+            font-size: 20vw;
             color: white;
-            line-height: 1.618;
+            text-shadow: 0px 0px 10px black;
+            line-height: 1;
             max-width: calc(100vw - 32px)
         }
-        @media screen and (min-width: 501px) {
-            margin: 24px;
         }
-        @media screen and (min-width: 901px) {
-            margin: 32px;
-    }
    
     
 `
@@ -45,18 +39,18 @@ export const Overlay = styled.div`
 const IndexPage = () => (
     <Layout>
         <Container>
-            <SEO title="is canada real" keywords={[`canada`]} />
+            <SEO title="Is Canada real?" keywords={[`Canada`]} />
 
             <div style={{ width: '100%', maxWidth: "100vw", height: '100vh', }}>
                 <img alt="turtles" style={{ width: '100%', maxWidth: "100vw", height: '100vh', objectFit: 'cover', margin: '0' }} src="https://media.giphy.com/media/MONvE9pT7jsEE/giphy.gif" />
             </div>
             <Overlay >
 
-                <section className="bottom">
-                    <div>
-                        NO
-                    </div>
-                </section>
+
+                <section><div>
+                    nope.
+                </div></section>
+
             </Overlay>
         </Container>
     </Layout>
